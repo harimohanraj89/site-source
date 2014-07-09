@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h2>{{ page.heading }}</h2>
+
+<p>
+  Coming soon.
+</p>
+
+<ul>
+  {% for item in site.categories[page.cat] %}
+    <li>{{ item.title }}</li>
+  {% endfor %}
+</ul>
