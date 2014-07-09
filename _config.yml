@@ -9,4 +9,4 @@ github_username:  harimohanraj89
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: none
