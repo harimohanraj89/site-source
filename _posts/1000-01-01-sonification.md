@@ -26,12 +26,9 @@ computers) text files utilizing MATLAB's inbuilt functions to read DICOM files.
 The magic happens in the C++ tool that I developed named SoniScan++ (the MATLAB
 prototype was named SoniScan, and is shown below).
 
-```
-    UNDER CONSTRUCTION, LOL:
-    <a href="images/sonificationmatlab.png" target="_blank">
-      <img class="large boxsize" src="images/sonificationmatlab.png" />
-    </a>
-```
+<a href="/images/sonificationmatlab.png" target="_blank">
+  <img class="large boxsize" src="/images/sonificationmatlab.png" />
+</a>
 
 Here the user is presented with the option to "sonify" a dataset in a number of
 ways. Some of the sonification techniques are voxel(volumetric pixel)-to-note
@@ -43,7 +40,6 @@ should play. The result is musical piece of sorts.
 
 <div class="videowrapper">
   <iframe width="320" height="240" src="http://www.youtube.com/embed/SPxJu1Vqx0E?controls=0&showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
-
   <p class="caption">
     A healthy brain, where pitch is mapped to the y-axis, and time to the x-axis.
   </p>
@@ -51,7 +47,6 @@ should play. The result is musical piece of sorts.
 
 <div class="videowrapper">
   <iframe width="320" height="240" src="http://www.youtube.com/embed/aB-JXwb3Ido?controls=0&showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
-
   <p class="caption">
     A brain with severe Alzheimer's, where pitch is mapped to the y-axis, and time to the x-axis.
   </p>
@@ -65,7 +60,6 @@ improvement of consistency in diagnosis of Alzheimer's disease.
 
 <div class="videowrapper">
   <iframe class="boxsize" width="320" height="240" src="http://www.youtube.com/embed/vUmi-EeX-EE?controls=0&showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
-
   <p class="caption">
     A healthy brain, where pitch is mapped to the y-axis, and time to the x-axis.
   </p>
@@ -73,7 +67,6 @@ improvement of consistency in diagnosis of Alzheimer's disease.
 
 <div class="videowrapper">
   <iframe width="320" height="240" src="http://www.youtube.com/embed/9udVvM_2EY8?controls=0&showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
-
   <p class="caption">
     A brain with severe Alzheimer's, where pitch is mapped to the y-axis, and time to the x-axis.
   </p>
