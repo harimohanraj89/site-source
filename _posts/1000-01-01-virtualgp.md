@@ -1,7 +1,10 @@
 ---
 layout: post
 categories: audio
-title: Virtual Guitar Processor
+title: "Virtual Guitar Processor"
+thumb: "/images/virtualgp.png"
+blurb: "A software guitar effects rack, including distortion, EQ, reverb, and
+				delay based effects. Built in PureData."
 ---
 
 <a class="imglink" href="/images/virtualgp.png" target="_blank">
@@ -17,17 +20,20 @@ patch that would serve as a virtual guitar processor.
 The guitar processor implemented the following features.
 
 * Distortion: A choice of sinusoidal, polynomial, or diode-modeled distortions
-* Equalization: A 3-band parametric equalizer, with two shelf bands and a peak band in the middle
-* Effects: A parametric effects rack, providing vibrato, flanger, chorus, doubling (like a slap-back echo)
+* Equalization: A 3-band parametric equalizer, with two shelf bands and a peak
+	band in the middle
+* Effects: A parametric effects rack, providing vibrato, flanger, chorus,
+	doubling (like a slap-back echo)
 * Delay: A parametric delay, with wet volume and feedback control
-* Reverb: A reverb engine using a feedback delay network, with wet volume and reverb time control
+* Reverb: A reverb engine using a feedback delay network, with wet volume and
+	reverb time control
 
 The header image on this page looks pretty, but the sad reality of PureData (vs
 MaxMSP, for example) is the absence of a presentation mode. Hence, the actual
 patch looked something like this.
 
 <a class="imglink" href="/images/virtualgpdetailed.png" target="_blank">
-	<img id="virtualgpdetailedimage" class="boxsize" src="/images/virtualgpdetailed.png"/>
+	<img id="virtualgpdetailedimage" class="large boxsize" src="/images/virtualgpdetailed.png"/>
 </a>
 
 However, I was able to produce some cool sounds with this patch (mainly using my

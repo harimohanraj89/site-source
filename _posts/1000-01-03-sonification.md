@@ -2,6 +2,10 @@
 layout: post
 categories: audio
 title: Immersive Sonification of Medical Imaging Data
+thumb: "/images/thumbsonification.png"
+blurb: "Exploratory research project on representing medical imaging data
+        through sound to supplement current diagnostic methods for Alzheimer's
+        disease."
 ---
 
 Sonification is the representation of any data or information through the sense

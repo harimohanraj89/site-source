@@ -1,7 +1,10 @@
 ---
 layout: post
 categories: audio
-title: Two Dimensional Mixer
+title: "Two Dimensional Mixer"
+thumb: "/images/thumbtwodmixer.png"
+blurb: "A two-dimensional mixer that blends four separate audio sources. Built
+				in PureData."
 ---
 
 <a class="imglink" href="/images/virtualgp.png" target="_blank">
