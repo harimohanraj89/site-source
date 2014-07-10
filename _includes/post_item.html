@@ -1,4 +1,11 @@
-<a class="projentrylink" href="{{ post.url }}">
+{% if post.link %}
+  {% assign link = post.link %}
+  {% assign target = "_blank" %}
+{% else %}
+  {% assign link = post.url %}
+  {% assign target = "_self" %}
+{% endif %}
+<a class="projentrylink" href="{{ link }}" target="{{ target }}">
   <div class="projentry boxsize">
   	<div id="imgwrapper">
   		<img src="{{ post.thumb }}">
