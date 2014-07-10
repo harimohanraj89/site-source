@@ -7,9 +7,7 @@ blurb: "A two-dimensional mixer that blends four separate audio sources. Built
 				in PureData."
 ---
 
-<a class="imglink" href="/images/virtualgp.png" target="_blank">
-	<img id="virtualgpimage" class="large boxsize" src="/images/thumbtwodmixer.png"/>
-</a>
+{% include image.html path="/images/thumbtwodmixer.png" size="large" %}
 
 This two dimensional mixer was the product of the final project assignment in my
 Advanced Game Audio class. The class was dedicated to learning the sound design
@@ -28,9 +26,7 @@ The header image on this page looks pretty, but the sad reality of PureData
 (vs MaxMSP, for example) is the absence of a presentation mode. Hence, the
 actual patch looked something like this.
 
-<a class="imglink" href="/images/twodmixerdetailed.png" target="_blank">
-	<img id="virtualgpdetailedimage" class="boxsize" src="/images/twodmixerdetailed.png"/>
-</a>
+{% include image.html path="/images/twodmixerdetailed.png" size="large" %}
 
 The patch is available for download below, if you feel like taking this patch
 for a ride. The download also contains some sample audio to get up and running.

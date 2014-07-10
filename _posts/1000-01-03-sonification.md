@@ -30,9 +30,7 @@ computers) text files utilizing MATLAB's inbuilt functions to read DICOM files.
 The magic happens in the C++ tool that I developed named SoniScan++ (the MATLAB
 prototype was named SoniScan, and is shown below).
 
-<a href="/images/sonificationmatlab.png" target="_blank">
-  <img class="large boxsize" src="/images/sonificationmatlab.png" />
-</a>
+{% include image.html path="/images/sonificationmatlab.png" size="large" %}
 
 Here the user is presented with the option to "sonify" a dataset in a number of
 ways. Some of the sonification techniques are voxel(volumetric pixel)-to-note

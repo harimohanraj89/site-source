@@ -4,9 +4,10 @@ email: hari.mohanraj89@gmail.com
 description: "Personal website of Hari Mohanraj"
 baseurl: ""
 url: "http://harimohanraj89.github.io"
-twitter_username: hari_mohanraj
+twitter_username: harimohanraj89
 github_username:  harimohanraj89
-
+youtube_username: skfreak914
+soundcloud_username: harimohanraj89
 # Build settings
 markdown: kramdown
 permalink: none

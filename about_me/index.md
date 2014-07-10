@@ -3,7 +3,7 @@ layout: post
 title: "About Me"
 ---
 
-<img id="aboutimage boxsize" class="tiny" src="/images/hmpic.jpg" />
+{% include image.html path="/images/hmpic.jpg" size="tiny" %}
 
 Hi there. I am a graduate student at New York University, majoring in
 <a href="http://steinhardt.nyu.edu/music/technology/" target="_blank">Music
@@ -33,18 +33,15 @@ target="_blank">hari.mohanraj89@gmail.com</a>
 
 You can also find me on any of the following networks.
 
-<a href="http://www.twitter.com/hari_mohanraj" target="_blank">
-  <i class="icon-twitter icon-2x"></i>
+<a href="http://www.twitter.com/{{ site.twitter_username }}" target="_blank">
+  <i class="fa fa-twitter fa-2x"></i>
 </a>
-<a href="http://www.facebook.com/harimohan" target="_blank">
-  <i class="icon-facebook icon-2x"></i>
+<a href="http://www.github.com/{{ site.github_username }}" target="_blank">
+  <i class="fa fa-github fa-2x"></i>
 </a>
-<a href="http://www.github.com/harimohanraj89" target="_blank">
-  <i class="icon-github icon-2x"></i>
+<a href="http://www.youtube.com/{{ site.youtube_username }}" target="_blank">
+  <i class="fa fa-youtube fa-2x"></i>
 </a>
-<a href="http://www.youtube.com/skfreak914" target="_blank">
-  <i class="icon-youtube icon-2x"></i>
-</a>
-<a href="http://www.soundcloud.com/harimohan" target="_blank">
-  <i class="icon-soundcloud icon-2x"></i>
+<a href="http://www.soundcloud.com/{{ site.soundcloud_username }}" target="_blank">
+  <i class="fa fa-soundcloud fa-2x"></i>
 </a>

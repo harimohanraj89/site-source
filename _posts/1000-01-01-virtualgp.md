@@ -7,9 +7,7 @@ blurb: "A software guitar effects rack, including distortion, EQ, reverb, and
 				delay based effects. Built in PureData."
 ---
 
-<a class="imglink" href="/images/virtualgp.png" target="_blank">
-	<img id="virtualgpimage" class="large boxsize" src="/images/virtualgp.png"/>
-</a>
+{% include image.html path="/images/virtualgp.png" size="large" %}
 
 This virtual guitar processor was the product of the final project assignment in
 my Advanced Digital Signal Theory class. The class was dedicated to learning the
@@ -32,9 +30,7 @@ The header image on this page looks pretty, but the sad reality of PureData (vs
 MaxMSP, for example) is the absence of a presentation mode. Hence, the actual
 patch looked something like this.
 
-<a class="imglink" href="/images/virtualgpdetailed.png" target="_blank">
-	<img id="virtualgpdetailedimage" class="large boxsize" src="/images/virtualgpdetailed.png"/>
-</a>
+{% include image.html path="/images/virtualgpdetailed.png" size="large" %}
 
 However, I was able to produce some cool sounds with this patch (mainly using my
 bass guitar) and even used it for a live performance in a Distributed
