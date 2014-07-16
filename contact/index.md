@@ -9,18 +9,15 @@ you. Shoot me an email at
 
 You can also find me on any of the following networks.
 
-<a href="http://www.twitter.com/hari_mohanraj" target="_blank">
-  <i class="icon-twitter icon-2x"></i>
+<a href="http://www.twitter.com/{{ site.twitter_username }}" target="_blank">
+  <i class="fa fa-twitter fa-2x"></i>
 </a>
-<a href="http://www.facebook.com/harimohan" target="_blank">
-  <i class="icon-facebook icon-2x"></i>
+<a href="http://www.github.com/{{ site.github_username }}" target="_blank">
+  <i class="fa fa-github fa-2x"></i>
 </a>
-<a href="http://www.github.com/harimohanraj89" target="_blank">
-  <i class="icon-github icon-2x"></i>
+<a href="http://www.youtube.com/{{ site.youtube_username }}" target="_blank">
+  <i class="fa fa-youtube fa-2x"></i>
 </a>
-<a href="http://www.youtube.com/skfreak914" target="_blank">
-  <i class="icon-youtube icon-2x"></i>
-</a>
-<a href="http://www.soundcloud.com/harimohan" target="_blank">
-  <i class="icon-soundcloud icon-2x"></i>
+<a href="http://www.soundcloud.com/{{ site.soundcloud_username }}" target="_blank">
+  <i class="fa fa-soundcloud fa-2x"></i>
 </a>

@@ -120,17 +120,17 @@ i {
   margin-bottom: 24px;
   color: #777;
 }
-i.icon-facebook:hover {
-  color: #3b5998;
-}
-i.icon-twitter:hover {
+i.fa-twitter:hover {
   color: #00aced;
 }
-i.icon-youtube:hover {
+i.fa-github:hover {
+  color: #4183c4;
+}
+i.fa-youtube:hover {
   color: #bb0000;
 }
-i.icon-github:hover {
-  color: #4183c4;
+i.fa-soundcloud:hover {
+  color: #f60;
 }
 a {
   transition: color 0.25s ease-out;
