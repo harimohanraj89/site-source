@@ -5,9 +5,17 @@ title: "About Me"
 
 {% include image.html path="/images/hmpic.jpg" size="tiny" %}
 
-Hi there. I am a graduate student at New York University, majoring in
+Hi there.
+
+Currently, I am a Web Development Instructor at <a
+href="http://generalassemb.ly/education/web-development-immersive"
+target="_blank">General Assembly.</a> I teach students who have little to no
+programming experience over a period of 12 weeks to prepare them to enter the
+work force as competent and confident junior web developers.
+
+I was a graduate student at New York University, majoring in
 <a href="http://steinhardt.nyu.edu/music/technology/" target="_blank">Music
-Technology</a>. Our program covers everything from recording and mixing in the
+Technology</a>. Our program covered everything from recording and mixing in the
 studio to programming complex audio signal processing systems. As you can
 probably tell, I enjoy the more technical aspects of our program, and work on
 projects involving immersive audio, game audio, and the web. I joined NYU in the
@@ -15,8 +23,7 @@ Fall of 2011, and expect to graduate by the end of Fall 2013.
 
 I spent the four years of my undergraduate life at the
 <a href="http://www.iitm.ac.in" target="_blank">Indian Institute of Technology,
-Madras</a>. IIT Madras is known as one of the best engineering schools in India,
-if not the world. I graduated from IITM in the Summer of 2011, with a bachelors
+Madras</a>. I graduated from IITM in the Summer of 2011, with a bachelors
 degree in Engineering Physics. This program was an even blend of theoretical and
 applied physics, and electrical engineering. I spent most of my time here
 studying digital signal theory, learning how to live life on my own, and
