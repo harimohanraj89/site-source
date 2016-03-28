@@ -3,8 +3,10 @@ layout: default
 ---
 <h2>{{ page.heading }}</h2>
 
-<ul>
-  {% for post in site.categories[page.cat] %}
-    {% include post_item.html %}
-  {% endfor %}
-</ul>
+<div class="project-thumbs">
+    {% for post in site.categories[page.cat] %}
+      <div class="project-thumb-grid">
+        {% include mini_post_item.html %}
+      </div>
+    {% endfor %}
+</div>

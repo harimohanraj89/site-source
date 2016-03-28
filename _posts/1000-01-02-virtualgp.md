@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: audio
+categories: music audio
 title: "Virtual Guitar Processor"
 thumb: "/images/virtualgp.png"
 blurb: "A software guitar effects rack, including distortion, EQ, reverb, and

@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: audio
-title: Immersive Sonification of Medical Imaging Data
+title: Medical Sonification
 thumb: "/images/thumbsonification.png"
 blurb: "Exploratory research project on representing medical imaging data
         through sound to supplement current diagnostic methods for Alzheimer's

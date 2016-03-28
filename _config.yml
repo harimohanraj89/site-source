@@ -11,3 +11,4 @@ soundcloud_username: harimohanraj89
 # Build settings
 markdown: kramdown
 permalink: none
+gems: [bourbon, neat]

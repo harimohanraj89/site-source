@@ -2,11 +2,10 @@
 layout: homepage
 ---
 
-<div class="bodycontainer">
-  {% include home_icon.html subject="audio" icon="volume-up" text="Audio" %}
-  {% include home_icon.html subject="web" icon="globe" text="Web Development" %}
-  {% include home_icon.html subject="game" icon="gamepad" text="Game Development" %}
-  {% include home_icon.html subject="fun" icon="lightbulb-o" text="Fun" %}
-  {% include home_icon.html subject="music" icon="music" text="Music" %}
-  {% include home_icon.html subject="about_me" icon="male" text="About" %}
+<div class="project-thumbs">
+    {% for post in site.posts %}
+      <div class="project-thumb-grid">
+        {% include mini_post_item.html %}
+      </div>
+    {% endfor %}
 </div>

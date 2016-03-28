@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: fun
+categories: web fun
 title: "Physical Space"
 thumb: "/images/thumbballs.png"
 blurb: "A collection of physics simulations built in JavaScript"

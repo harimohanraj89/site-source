@@ -1,0 +1,18 @@
+{% if post.link %}
+  {% assign link = post.link %}
+  {% assign target = "_blank" %}
+{% else %}
+  {% assign link = post.url %}
+  {% assign target = "_self" %}
+{% endif %}
+<div class="project-thumb">
+  <a href="{{ link }}" target="{{ target }}">
+    <img class="project-thumb__image"src="{{ post.thumb }}">
+  </a>
+  <a href="{{ link }}" target="{{ target }}">
+    <p class="project-thumb__title">{{ post.title }}</p>
+  </a>
+  {% for category in post.categories %}
+  <a class="project-thumb__category" href="/{{ category }}">{{ category }}</a>
+  {% endfor %}
+</div>

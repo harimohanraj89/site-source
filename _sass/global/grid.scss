@@ -1,0 +1,68 @@
+/* Standard columns */
+@mixin custom-col($cols, $breakpoint) {
+  margin-top: $small-space;
+  margin-bottom: $small-space;
+  @include media($breakpoint) {
+    @include span-columns($cols);
+  }
+}
+
+@mixin desktop-col($cols) {
+  @include custom-col($cols, $desktop);
+}
+
+@mixin tablet-col($cols) {
+  @include custom-col($cols, $tablet);
+}
+
+@mixin default-col($cols) {
+  margin-top: $small-space;
+  margin-bottom: $small-space;
+  @include span-columns($cols);
+}
+
+/* Standard columns with omega */
+@mixin custom-col-with-omega($cols, $breakpoint, $query) {
+  margin-top: $small-space;
+  margin-bottom: $small-space;
+  @include media($breakpoint) {
+    @include span-columns($cols);
+    @include omega($query);
+  }
+}
+
+@mixin desktop-col-with-omega($cols, $query) {
+  @include custom-col-with-omega($cols, $desktop, $query);
+  @include omega($query);
+}
+
+@mixin tablet-col-with-omega($cols, $query) {
+  @include custom-col-with-omega($cols, $tablet, $query);
+  @include omega($query);
+}
+
+@mixin default-col-with-omega($cols, $query) {
+  margin-top: $small-space;
+  margin-bottom: $small-space;
+  @include span-columns($cols);
+  @include omega($query);
+}
+
+/* Tight columns */
+@mixin custom-col-tight($cols, $breakpoint) {
+  @include media($breakpoint) {
+    @include span-columns($cols, table);
+  }
+}
+
+@mixin desktop-col-tight($cols) {
+  @include custom-col-tight($cols, $desktop);
+}
+
+@mixin tablet-col-tight($cols) {
+  @include custom-col-tight($cols, $tablet);
+}
+
+@mixin default-col-tight($cols) {
+  @include span-columns($cols, table);
+}

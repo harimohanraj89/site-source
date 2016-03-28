@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: audio
+categories: music audio
 title: "Two Dimensional Mixer"
 thumb: "/images/thumbtwodmixer.png"
 blurb: "A two-dimensional mixer that blends four separate audio sources. Built

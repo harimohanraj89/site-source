@@ -1,0 +1,12 @@
+$small-space: 1rem;
+
+$tablet: new-breakpoint(min-width 600px);
+$desktop: new-breakpoint(min-width 800px);
+
+$tablet-up: new-breakpoint(min-width 600px);
+$desktop-up: new-breakpoint(min-width 800px);
+
+$tablet-down: new-breakpoint(max-width 600px);
+$desktop-down: new-breakpoint(max-width 800px);
+
+$tablet-to-desktop: new-breakpoint(min-width 600px max-width 800px);

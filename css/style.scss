@@ -1,3 +1,14 @@
+---
+---
+
+@import 'bourbon';
+@import 'neat';
+
+@import 'global/variables';
+@import 'global/grid';
+
+@import 'components/project-thumbs';
+
 body {
   margin: 0;
   width: 100%;
@@ -32,7 +43,7 @@ div#page {
   margin-left: auto;
   margin-right: auto;
   width: 85%;
-  max-width: 960px;
+  max-width: 1280px;
   background: #fdfdfd;
 }
 h1.pagetitle {
@@ -56,14 +67,14 @@ h1.pagetitle a:hover {
 h1.maintitle {
   width: auto;
   margin-top: 12px;
-  margin-bottom: 50px;
+  margin-bottom: 24px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   font-family: "Oxygen", Arial, sans-serif;
   font-weight: 100;
-  font-size: 50px;
+  font-size: 36px;
   color: #333;
 }
 h1.maintitle a {
@@ -99,13 +110,13 @@ p {
   margin-bottom: 20px;
   text-align: justify;
   font-size: 14px;
-  font-family: Verdana;
-  line-height: 32px;
+  font-family: 'Courier New';
+  line-height: 16px;
   color: #333;
 }
 ul {
   font-size: 13px;
-  font-family: Verdana;
+  font-family: 'Courier New';
   line-height: 24px;
   color: #333;
 }
@@ -499,10 +510,6 @@ div.footertextcontainer a:hover {
   }
   div.projentry div#contentwrapper p.projentrytext {
     font-size: 16px;
-  }
-  div.projentry:hover {
-    padding-top: 36px;
-    padding-bottom: 12px;
   }
   div.videowrapper {
     display: inline;
