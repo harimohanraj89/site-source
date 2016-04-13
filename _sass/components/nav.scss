@@ -1,0 +1,18 @@
+.main-nav__title {
+  font-size: 2rem;
+  display: inline;
+  font-family: $title-font;
+  font-weight: 100;
+  color: #333;
+}
+
+.main-nav__items {
+  display: inline;
+  float: right;
+}
+
+.main-nav__item {
+  display: inline;
+  padding: $small-space;
+  font-size: 1.5rem;
+}

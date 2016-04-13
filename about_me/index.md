@@ -13,13 +13,12 @@ target="_blank">General Assembly.</a> I teach students who have little to no
 programming experience over a period of 12 weeks to prepare them to enter the
 work force as competent and confident junior web developers.
 
-I was a graduate student at New York University, majoring in
-<a href="http://steinhardt.nyu.edu/music/technology/" target="_blank">Music
+I was a graduate student at New York University, majoring in <a
+href="http://steinhardt.nyu.edu/music/technology/" target="_blank">Music
 Technology</a>. Our program covered everything from recording and mixing in the
 studio to programming complex audio signal processing systems. As you can
-probably tell, I enjoy the more technical aspects of our program, and work on
-projects involving immersive audio, game audio, and the web. I joined NYU in the
-Fall of 2011, and expect to graduate by the end of Fall 2013.
+probably tell, I enjoyed the more technical aspects of our program, and worked
+on projects involving immersive audio, game audio, and the web.
 
 I spent the four years of my undergraduate life at the
 <a href="http://www.iitm.ac.in" target="_blank">Indian Institute of Technology,
