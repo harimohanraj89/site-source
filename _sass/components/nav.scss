@@ -1,3 +1,8 @@
+.main-nav {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .main-nav__title {
   font-size: 2rem;
   display: inline;
@@ -9,10 +14,14 @@
 .main-nav__items {
   display: inline;
   float: right;
+  margin: 0;
 }
 
 .main-nav__item {
   display: inline;
   padding: $small-space;
   font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }

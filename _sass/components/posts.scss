@@ -2,10 +2,16 @@
   @include outer-container(100%);
 
   @include media($desktop) {
-    max-width: 600px;
+    max-width: 800px;
   }
 }
 
 .post {
   @include default-col(12);
+
+  @include media($desktop) {
+    p {
+      font-size: 1.4rem;
+    }
+  }
 }
