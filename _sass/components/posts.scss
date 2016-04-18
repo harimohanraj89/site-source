@@ -1,3 +1,11 @@
 .post-page {
   @include outer-container(100%);
+
+  @include media($desktop) {
+    max-width: 600px;
+  }
+}
+
+.post {
+  @include default-col(12);
 }

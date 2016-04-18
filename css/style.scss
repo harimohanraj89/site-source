@@ -6,9 +6,11 @@
 
 @import 'global/variables';
 @import 'global/grid';
+@import 'global/images';
 
 @import 'components/nav';
 @import 'components/project-thumbs';
+@import 'components/posts';
 
 body {
   margin: 0;
@@ -107,16 +109,15 @@ h4 {
   font-size: 24px;
 }
 p {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: justify;
-  font-size: 14px;
+  margin-top: $small-space;
+  margin-bottom: $small-space;
+  font-size: 1.2rem;
   font-family: 'Courier New';
-  line-height: 16px;
+  line-height: 1.2;
   color: #333;
 }
 ul {
-  font-size: 13px;
+  font-size: 1.1rem;
   font-family: 'Courier New';
   line-height: 24px;
   color: #333;

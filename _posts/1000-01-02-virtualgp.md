@@ -36,4 +36,4 @@ However, I was able to produce some cool sounds with this patch (mainly using my
 bass guitar) and even used it for a live performance in a Distributed
 Performances class.
 
-<a class="distinct" href="downloads/VirtualGP.zip">Download the patch</a>
+<a class="distinct" href="/downloads/VirtualGP.zip">Download the patch</a>
