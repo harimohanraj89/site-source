@@ -39,7 +39,7 @@ h6 {
   margin-bottom: 20px;
   text-align: left;
   font-size: 32px;
-  font-family: "Mako", sans-serif;
+  font-family: 'Oxygen', sans-serif;
   color: #666;
   clear: both;
 }
@@ -48,7 +48,7 @@ p {
   margin-bottom: 20px;
   text-align: justify;
   font-size: 14px;
-  font-family: 'Courier New';
+  font-family: 'Crimson Text', serif;
   line-height: 32px;
   color: #333;
 }
@@ -133,7 +133,7 @@ div.gridentry {
 div.gridentry .gridentrytext {
   padding: 10px;
   width: auto;
-  font-family: "Mako", sans-serif;
+  font-family: 'Oxygen', sans-serif;
   font-size: 24px;
   color: #777;
   vertical-align: middle;
