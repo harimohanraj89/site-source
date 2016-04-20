@@ -12,3 +12,5 @@ $tablet-down: new-breakpoint(max-width 600px);
 $desktop-down: new-breakpoint(max-width 800px);
 
 $tablet-to-desktop: new-breakpoint(min-width 600px max-width 800px);
+
+$light-grey: #f3f3f3;

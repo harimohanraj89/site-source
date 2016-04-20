@@ -12,10 +12,30 @@
   @include media($desktop) {
     p {
       font-size: 1.4rem;
+      line-height: 1.4;
     }
 
     ul {
       font-size: 1.2rem;
     }
+
+    blockquote {
+      margin: 0;
+      padding: $small-space $small-space*2.5;
+
+      background: $light-grey;
+      border-radius: $small-space;
+
+      font-size: 1.6rem;
+
+      p {
+        font-size: inherit;
+      }
+    }
+  }
+
+  .post__image-caption {
+    text-align: center;
+    font-size: 1rem;
   }
 }
