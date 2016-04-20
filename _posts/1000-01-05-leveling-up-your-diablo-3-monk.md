@@ -84,7 +84,6 @@ I decided to tune my gear towards maximizing my Attack Speed and my Life On Hit.
 After socketing every diamond I owned in my gear to increase my resistances, I
 became the Diablo equivalent of Wolverine. I could stand in one spot and
 relentlessly beat on mobs, while my super-healing powers kept me alive forever.
-This allowed me to play at higher difficulty levels.
 
 I could now play at higher difficulties. My damage output was terrible, but it
 didn't matter. I didn't mind taking a while to kill things, because the greater
@@ -100,6 +99,6 @@ again.
 If you relate to this Diablo "mid-life crisis" that I went through, I hope this
 approach will help you get over the hump.
 
-You can view example build that I used to get from Torment IV to Torment VII
+You can view an example build that I used to get from Torment IV to Torment VII
 <a href="http://www.diablofans.com/builds/78647-life-on-hit-monk" target="_blank">
 here</a>.
