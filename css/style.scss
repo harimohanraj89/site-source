@@ -1,16 +1,16 @@
 ---
 ---
 
-@import 'bourbon';
-@import 'neat';
+@import "bourbon/bourbon";
+@import "neat/neat";
 
-@import 'global/variables';
-@import 'global/grid';
-@import 'global/images';
+@import "global/variables";
+@import "global/grid";
+@import "global/images";
 
-@import 'components/nav';
-@import 'components/project-thumbs';
-@import 'components/posts';
+@import "components/nav";
+@import "components/project-thumbs";
+@import "components/posts";
 
 body {
   margin: 0;
@@ -330,74 +330,7 @@ div.gridentry:hover i {
   font-size: 132px;
   color: #333;
 }
-a.projentrylink {
-  text-decoration: none;
-}
-a.projentrylink:link {
-  color: inherit;
-  text-decoration: none;
-}
-/* unvisited link */
-a.projentrylink:visited {
-  color: inherit;
-  text-decoration: none;
-}
-/* visited link */
-a.projentrylink:hover {
-  color: inherit;
-  text-decoration: none;
-}
-/* mouse over link */
-div.projentry {
-  display: inline;
-  float: left;
-  width: 97.91666666666666%;
-  margin: 0 1.0416666666666665%;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  border-top: 1px solid #c0c0c0;
-  transition: padding 0.25s ease-out, background 0.25s ease-out;
-  -webkit-transition: padding 0.25s ease-out, background 0.25s ease-out;
-}
-div.projentry:before,
-div.projentry:after {
-  content: " ";
-  display: table;
-}
-div.projentry:after {
-  clear: both;
-}
-div.projentry div#imgwrapper {
-  width: 100%;
-  height: 200px;
-  float: left;
-  margin-bottom: 24px;
-}
-div.projentry div#imgwrapper img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background: #fdfdfd;
-  border: 1px solid #c0c0c0;
-  padding: 6px;
-  max-height: 100%;
-  width: auto;
-  max-width: 100%;
-}
-div.projentry div#contentwrapper {
-  width: 100%;
-  float: right;
-}
-div.projentry div#contentwrapper h3 {
-  transition: color 0.25s ease-out;
-  margin-top: 0;
-}
-div.projentry:hover {
-  background: rgba(0, 0, 0, 0.05);
-}
-div.projentry:hover div#contentwrapper h3 {
-  color: #7799dd;
-}
+
 div.videowrapper {
   display: inline;
   float: left;
@@ -497,21 +430,6 @@ div.footertextcontainer a:hover {
     width: 31.25%;
     margin: 0 1.0416666666666665%;
     margin-bottom: 20px;
-  }
-  div.projentry div#imgwrapper {
-    height: auto;
-    width: 35%;
-  }
-  div.projentry div#imgwrapper img {
-    margin: 0;
-    width: 100%;
-    height: auto;
-  }
-  div.projentry div#contentwrapper {
-    width: 60%;
-  }
-  div.projentry div#contentwrapper p.projentrytext {
-    font-size: 16px;
   }
   div.videowrapper {
     display: inline;
