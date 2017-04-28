@@ -170,62 +170,7 @@ a:hover {
 a.distinct {
   text-decoration: underline;
 }
-/* TOP BAR ELEMENTS */
-div.topbar {
-  display: inline;
-  float: left;
-  width: 50%;
-  margin: 0 0;
-  height: 40px;
-  font-size: 12px;
-  line-height: 40px;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  color: #777;
-  transition: background 0.3s linear, color 0.3s linear;
-  -webkit-transition: background 0.3s linear, color 0.3s linear;
-}
-div.topbar:hover {
-  color: #fdfdfd;
-  background: #777;
-}
-div.topbarcurrent {
-  float: left;
-  height: 13px;
-  font-size: 12px;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  color: #F5F5F5;
-  background: #7D7D7D;
-  padding-top: 10px;
-  padding-bottom: 17px;
-  padding-left: 5%;
-  padding-right: 5%;
-  transition: background 0.3s linear, color 0.3s linear;
-  -webkit-transition: background 0.3s linear, color 0.3s linear;
-}
-div.topbarcurrent:hover {
-  color: #fdfdfd;
-  background: #666666;
-}
-div.topbarcontainer {
-  width: 100%;
-  margin: 0;
-  clear: both;
-  margin-bottom: 24px;
-  border-top: 1px solid #c0c0c0;
-  border-bottom: 1px solid #c0c0c0;
-}
-div.topbarcontainer:before,
-div.topbarcontainer:after {
-  content: " ";
-  display: table;
-}
-div.topbarcontainer:after {
-  clear: both;
-}
+
 /* BODY ELEMENTS */
 div.bodycontainer {
   width: 100%;
@@ -382,12 +327,6 @@ div.footertextcontainer a:hover {
   color: inherit;
 }
 @media screen and (min-width: 600px) {
-  div.topbar {
-    display: inline;
-    float: left;
-    width: 33.33333333333333%;
-    margin: 0 0;
-  }
   div.gridentry {
     display: inline;
     float: left;
@@ -405,24 +344,6 @@ div.footertextcontainer a:hover {
     margin-top: 0;
     line-height: 42px;
     border-right: 1px solid #c0c0c0;
-  }
-  div.topbar {
-    display: inline;
-    float: left;
-    width: 16.666666666666664%;
-    margin: 0 0;
-  }
-  div.topbarcontainer {
-    clear: none;
-    float: right;
-    width: 80%;
-  }
-  div.topbarcontainer,
-  div.topbarcontainer:before,
-  div.topbarcontainer.after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
   }
   div.gridentry {
     display: inline;
